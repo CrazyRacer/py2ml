@@ -1,8 +1,13 @@
 from six import u
 from zc.zk import ZooKeeper
 
-zk = ZooKeeper('zookeeper4.wohuafu.com:10155')
+zk = ZooKeeper('zookeeper1.wohuafu.com:10011')
 zk.delete_recursive('/dubbo')
+# zk = ZooKeeper('zookeeper1.wohuafu.com:10011')
+# print(zk.export_tree("/"))
+
+
+
 #
 #
 #
